@@ -200,7 +200,8 @@ x = range(1, 101)
 
 plt.plot(x, y)
 plt.title("Iterations to Empty Movie Names")
-plt.xlabel("Iterations")
-plt.ylabel("Characters in selected movie name")
+plt.xlabel("Trial Number (Movie #)") 
+plt.ylabel("Number of Iterations to Empty String")
 plt.grid(True)
 plt.show()
+
